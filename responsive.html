@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/1ec8c0ecbd.js" crossorigin="anonymous"></script>
+    <title>Exercise</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing:0.75px;
+           
+        }
+        header{
+            display: flex;
+            height: 6.5vh;
+            gap: 2vh;
+            background-color: #59CAD3;
+        }
+        .s1{
+            color: white;
+            text-align: center;
+            background-image:url(msc.png) ;
+            width: 100%;
+            height: 70vh;
+            padding-top: 8%;
+            background-size: cover;
+        }
+        .button1{
+            color:#292F36;
+            background-color: white;
+            padding:1vh 2vh;
+            border-radius: 5px;
+            border: solid white;
+            font-weight: bold;
+
+        }
+        .button2{
+            color: white;
+            background-color: transparent;
+            border:solid white;
+            padding:1vh 2vh;
+            border-radius: 5px;
+            margin-left: 2vh;
+            font-weight: bold;
+        }
+        .s2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 25vh
+        }
+        .s2a{
+            height: 20%;
+            text-align: center;
+            margin-top: 3vh;
+            font-size: 18px;
+
+        }
+        .s2b{
+            height: 50%;
+            display: flex;
+        }
+        .b{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            text-align: center;
+        }
+        .b1{
+            height: 80%;
+            font-size:50px;
+            font-weight: bold;
+            padding-bottom: 0px;
+          
+        }
+        .b2{
+            height:20% ;
+            padding-top: 1vh;
+            padding-top:0px;
+        }
+        .s3{
+            color: white;
+            display: flex;
+            gap: 1vh;
+            width: 100%;
+            height: 55vh;
+        }
+        .s3a{
+            width: 25%;
+            border-radius: 5px;
+        }
+        .s3a11{
+            height: 60%;
+            background-image: url(a1.jpg);
+            background-size: cover;background-repeat: no-repeat;
+        }
+        .s3a12{
+            height: 60%;
+            background-image: url(a2.jpg);
+            background-size: cover;background-repeat: no-repeat;
+
+        }
+        .s3a13{
+            height: 60%;
+            background-image: url(a3.jpg);
+            background-size: cover;background-repeat: no-repeat;
+
+        }
+        .s3a14{
+            height: 60%;
+            background-image: url(a4.jpg);
+            background-size: cover;background-repeat: no-repeat;
+
+        }
+        .trans{
+            position: relative;
+            top: 26.5vh;
+            text-align: center;
+        }
+
+        .s3a2{
+            color: white;font-weight: bold;height: 40%;text-align: center;padding-top: 8%;line-height: 4vh;
+        }
+        .s4{
+            display: flex;
+            flex-direction: column;
+            height: 30vh;
+            gap: 3vh;
+            width: 100%;
+        }
+        .s4a{
+            height: 35%;
+            color: white;
+            background-color: #FFA400;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 7px;
+            padding-top: 2vh;
+
+        }
+        .s4b{
+            height: 65%;
+            display: flex;
+        }
+        .s4b div {
+            width: 8.33%;
+            height: 100%;
+            gap: 1vh;
+        }
+        .s5{
+            text-align: center;
+        }
+        footer{
+            display: flex;
+            background-color: #292F36;
+            height:25vh ;
+            color: white;
+            padding-left: 18%;
+            padding-top:2%;
+
+        }
+        .fa-brands{
+            margin: 2vh;
+        }
+        .icon{
+            margin-left: 7vh;
+            font-size:2vh;
+        }
+        .select{
+            margin-left: 7vh;
+        }
+      
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://code.org/images/logo.svg" alt="">
+        <a href="">Learn</a>
+        <a href="">Teach</a>
+        <a href="">District</a>
+        <a href="">Stats</a>
+        <a href="">Help Us</a>
+        <a href="">Incubator</a>
+        <a href="">About</a>
+        <a href="" style="right">Create</a>
+        <a href="" style="right">Sign in</a>
+        <i class="fa-solid fa-circle-question" style="color: #ffffff;"></i>
+    </header>
+    <section class="s1">
+        <p style="font-size: 22px;"> Intruducing <span><b><i class="fa-solid fa-music" style="color: #ffffff;"></i>  Music Lab</b></span></p>
+        <p style="font-size: 35px;font-weight: bold;">Create music with code </p>
+        <p style="font-size: 22px;">Get creative with you favorite artist's music and code</p>
+        <p style="font-size: 22px;" >new songs and mixes!</p><br>
+        <div>
+            <span class="button1">Try Music lab</span>
+            <span class="button2">Learn more</span>
+        </div><br><br>
+        <p>In partnership with amazon future engineer</p>
+    </section>
+    <section class="s2">
+        <div class="s2a">Every student in every school should have the opportunity to learn computer science</div>
+        <div class="s2b">
+            <div class="b"><div class="b1">92M</div><div class="b2">student on Code.org</div></div>
+            <div class="b"><div class="b1">39M</div><div class="b2">of our students are younge women</div></div>
+            <div class="b"><div class="b1">304M</div><div class="b2">projects created on Code.org</div></div>
+            <div class="b"><div class="b1">2M</div><div class="b2">teatchers use Code,org</div></div>
+            <div class="b"><div class="b1">50</div><div class="b2">All 50 states support computer science</div></div>
+        </div>
+
+    </section>
+    <section class="s3">
+        <div class="s3a">
+            <div class="s3a11"> <div class="trans" style="background-color: #04a3b2d4;"><b><p>Houre of code</p></b> <p>Expolre, Play, and create!</p></div></div>
+            <div class="s3a2" style="background-color: #59CAD3">
+                <p>Try the Hour of Code</p>
+                <p>About the Hour of Code</p>
+                <p>Host an Hour of Code</p>
+            </div>
+        </div>
+        <div class="s3a">
+            <div class="s3a12"><div class="trans" style="background-color: #746998df"><b><p>Student</p></b><p>Explore our courses</p></div></div>
+            <div class="s3a2" style="background-color: #A69BC1" >
+                <p>Elementery School</p>
+                <p>Middle School +</p>
+                <p>Careers</p>
+            </div>
+        </div>
+        <div class="s3a">
+            <div class="s3a13"><div class="trans" style="background-color: #0189bbde;"><b><p>Educators</p></b><p>Teach your school</p></div></div>
+            <div class="s3a2" style=" background-color: #59B9DC" >
+                <p>Elementery School</p>
+                <p>Middle School</p>
+                <p>High school</p>
+            </div>
+        </div>
+        <div class="s3a">
+            <div class="s3a14"><div class="trans" style="background-color: #bdc226dc;"><b><p>Get involved</p></b><p>Support diversity in computing</p></div></div>
+            <div class="s3a2" style="background-color: #D1D567">
+                <p>See the stats</p>
+                <p>Bring CS to your school</p>
+                <p>Donate</p>
+            </div>
+        </div>
+
+    </section><br>
+    <section class="s4">
+        <div class="s4a">Over 304 million Code.org projects created</div>
+        <div class="s4b">
+            <div><img src="1.jpg" alt=""></div>
+            <div><img src="2.jpg" alt=""></div>
+            <div><img src="3.jpg" alt=""></div>
+            <div><img src="4.jpg" alt=""></div>
+            <div><img src="5.jpg" alt=""></div>
+            <div><img src="6.jpg" alt=""></div>
+            <div><img src="1.jpg" alt=""></div>
+            <div><img src="2.jpg" alt=""></div>
+            <div><img src="3.jpg" alt=""></div>
+            <div><img src="4.jpg" alt=""></div>
+            <div><img src="5.jpg" alt=""></div>
+            <div><img src="6.jpg" alt=""></div>
+        </div>
+
+    </section><br><br>
+    <section class="s5">
+        <p style="font-size: 20px;">Code.org thanks </p>
+        <p style="font-size: 15px;">Amazon. The Ballmer Group . Coinbase . Google.org . Microsoft . Spiegel Family Fund . Vista Equity Partners</p><br>
+        <span style="color: white;background-color: #8C52BA;border: solid #8C52BA;border-radius:1vh;padding: 2vh 5vh;">Donate</span><br><br><br>
+        <p style="color: #8C52BA;text-decoration: underline;">See more supporters</p>
+    </section>
+    <footer>
+     <div style="width: 60%;"> 
+        <p style="font-weight: 100;"><span style="color: #FF9900;">Privacy Policy</span> | Cookie Notice | About | Partners | Blog | Donate | Store | Support | Terms </p>
+        <p st> "© Code.org, 2024. Code.org®, the CODE logo, Hour of Code® and CS Discoveries® are trademarks of Code.org."Built on GitHub from Microsoft</p>
+        <img src="https://code.org/shared/images/Powered-By_logo-horiz_RGB_REV.png" alt="" width="120vh" height="40vh">
+    </div>
+    <div style="width: 40%;">
+        <div class="select"></div>
+        <div class="icon">
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-m" style="color: #ffffff;"></i>
+            
+        </div>
+      
+    </div>
+    
+
+ 
+     
+
+    </footer>
+</body>
+</html>
